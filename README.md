@@ -1,40 +1,62 @@
-🤖 Atividade: Engenharia de Instrução
-📝 Descrição do Projeto
-Este projeto foi desenvolvido como parte da disciplina de Inteligência Artificial (2026.1) . O objetivo foi dominar a técnica de comunicação com Modelos de Linguagem de Larga Escala (LLMs), treinando como engenheiros de instrução para obter resultados de alta precisão no menor tempo e com o menor número de interações possíveis.
+Aqui está o conteúdo do seu relatório organizado e formatado com uma estética profissional para o **GitHub**, utilizando elementos de **Markdown** que facilitam a leitura e dão um toque de "engenharia" ao repositório.
 
-O desafio consistiu em duas frentes:
+---
 
-Geração de Texto: Criar um e-mail formal (e depois informal) de um pirata para um rei, com contextos específicos que evoluíram a cada iteração.
-Geração de Imagem: Crie um prompt complexo para gerar uma imagem 4k de um astronauta barroco em Marte.
-Integrantes do Trio:
+# 🤖 Atividade: Engenharia de Instrução (Prompt Engineering)
 
-RAFAEL SILVA COBERTURA BRAGANTE
-ITALO SANTOS
-JOSÉ RODRIGUES
-🚀 Tecnologias Utilizadas
-Modelo de IA: Gemini 3 Flash (via interface de chat)
-Ferramentas: Engenharia de Prompt, Markdown
-Plataforma de Registro: GitHub
-📊 Processo de Refinamento (Log de Iterações)
-Abaixo, detalhamos o ciclo de Avaliação e Integração utilizado para atingir o "Alvo" em apenas 5 iterações.
+## 📝 Descrição do Projeto
+Este projeto foi desenvolvido como parte da disciplina de **Inteligência Artificial (2026.1)**. [cite_start]O objetivo central foi dominar a comunicação com Modelos de Linguagem de Larga Escala (LLMs), treinando a habilidade de **engenharia de instrução** para obter resultados de alta precisão com o menor número de interações possíveis[cite: 10].
 
-📧 Desafio 1: O E-mail do Pirata
-Iteração	Enviado imediato	Avaliação da Resposta
-1	"gere um e-mail formal de desculpas de um pirata para um rei"	O e-mail ficou formal demais, sem nomes específicos.
-2	"o pirata deve se chamar 'barba branca' e o rei deve se chamar 'arthur'"	Adicionou os nomes, mas o conteúdo ainda era genérico (sobre navio mercante).
-3	"o pirata está se desculpando por ter sequestrado a princesa do rei"	Contexto corrigido, tom formal mantido.
-4	"deixe num sotaque pirata, mais informal"	O tom mudou drasticamente para a "persona" correta, mas faltou o clímax.
-5	"adicione no final que o navio está afundando e a princesa não sabe nadar"	Resultado Final: Alcançou o equilíbrio perfeito entre humor, urgência e sotaque.
-🎨 Desafio 2: A Imagem do Astronauta
-Astronauta Barroco em Marte Figura 1: Representação visual do astronauta barroco tocando violoncelo em chamas.
+O desafio consistiu em duas frentes principais:
+1.  **Geração de Texto:** Criação de um e-mail de um pirata para um rei, evoluindo contextos específicos através de iterações.
+2.  **Geração de Imagem:** Construção de um prompt complexo para uma imagem 4K de um astronauta barroco em Marte.
 
-Prompt Final Utilizado:
+### 👥 Integrantes do Trio
+* [cite_start]**RAFAEL SILVA COVRE BRAGANTE** [cite: 3]
+* **ITALO SANTOS**
+* [cite_start]**JOSÉ RODRIGUES PEREIRA JUNIOR** [cite: 3]
 
-"Fotografia realista em 4K de um astronauta com uma armadura ornamentada em estilo barroco, sentado em uma cadeira e tocando um violoncelo envolto em chamas. A cena se passa na superfície vermelha e poeirenta de Marte, sob um céu noturno escuro repleto de inúmeras estrelas. Uma espaçonave futurista pousou nas proximidades, ao fundo. Alto nível de detalhes, iluminação cinematográfica e sombras dramáticas."
+---
 
-🔧 Resultados e Aprendizados
-O projeto declarou que a especificação de uma IA depende diretamente da explicação e do contexto fornecido pelo humano.
+## 🚀 Tecnologias Utilizadas
+* [cite_start]**Modelo de IA:** Gemini 3 Flash [cite: 9]
+* [cite_start]**Ferramentas:** Engenharia de Prompt, Markdown e XML [cite: 2, 5]
+* **Plataforma de Registro:** GitHub
 
-Engenharia de Prompt: Aprendemos que adicionar camadas de contexto (nomes, sotaques, urgência) é mais eficaz do que tentar explicar tudo em um único prompt gigante inicial.
-Iteração Controlada: O limite de 5 tentativas nos forçou a ser analítico e não desperdiçou comandos com instruções vagas.
-Multimodalidade: A transição entre gerar um texto criativo e uma imagem técnica exige a mudança de termos genéricos para termos descritivos (ex: "estilo barroco", "iluminação cinematográfica").
+---
+
+## 📊 Processo de Refinamento (Log de Iterações)
+
+Abaixo, detalhamos o ciclo de **Avaliação e Integração** utilizado para atingir o objetivo em apenas 5 iterações.
+
+### 📧 Desafio 1: O E-mail do Pirata
+
+| Iteração | Prompt Enviado | Avaliação da Resposta |
+| :--- | :--- | :--- |
+| 1 | "gere um e-mail formal de desculpas de um pirata para um rei" | Formalismo excessivo e falta de nomes específicos. |
+| 2 | "o pirata deve se chamar 'barba branca' e o rei deve se chamar 'arthur'" | Nomes adicionados, mas conteúdo ainda genérico. |
+| 3 | "o pirata está se desculpando por ter sequestrado a princesa do rei" | Contexto corrigido, mantendo o tom formal. |
+| 4 | "deixe num sotaque pirata, mais informal" | Persona correta atingida, mas sem o clímax necessário. |
+| 5 | "adicione no final que o navio está afundando e a princesa não sabe nadar" | **Resultado Final:** Equilíbrio perfeito entre humor, urgência e sotaque. |
+
+---
+
+### 🎨 Desafio 2: A Imagem do Astronauta
+
+**Conceito:** Astronauta Barroco em Marte.
+
+> **Prompt Final Utilizado:**
+> *"Fotografia realista em 4K de um astronauta com uma armadura ornamentada em estilo barroco, sentado em uma cadeira e tocando um violoncelo envolto em chamas. A cena se passa na superfície vermelha e poeirenta de Marte, sob um céu noturno escuro repleto de inúmeras estrelas. Uma espaçonave futurista pousou nas proximidades, ao fundo. Alto nível de detalhes, iluminação cinematográfica e sombras dramáticas."*
+
+---
+
+## 🔧 Resultados e Aprendizados
+
+[cite_start]A experiência demonstrou que a precisão de uma IA depende diretamente do contexto fornecido pelo humano[cite: 13, 14]:
+
+* **Camadas de Contexto:** Adicionar detalhes gradualmente (nomes, sotaques, urgência) é mais eficaz do que prompts iniciais gigantescos.
+* **Iteração Controlada:** O limite de 5 tentativas incentivou uma postura analítica e evitou comandos vagos.
+* [cite_start]**Multimodalidade:** A transição do texto para a imagem exige a substituição de termos narrativos por descritores técnicos específicos (ex: "estilo barroco", "iluminação cinematográfica")[cite: 7].
+
+---
+*Relatório gerado para a disciplina de Engenharia de Prompt - 2026.*
